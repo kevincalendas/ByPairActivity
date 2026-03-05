@@ -1,0 +1,282 @@
+body {
+    background: linear-gradient(45deg, rgb(253, 227, 255) 0%, rgb(205, 130, 255) 100%);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url(Pink\ Game\ Pixel\ Background.jpg);
+
+}
+
+
+.MainInterface{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 45%;
+    height: 45%;
+    background-color: rgba(255, 95, 194, 0.377);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 20px;
+
+}
+
+.Title1 {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    translate: -50%;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: 1000;
+    font-family: PixelGame-R9AZe;
+    color: #fb74a8;
+ text-shadow: 2px 2px #ffffff;
+}
+
+.Sub1 {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    translate: -50%;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.StartButton {
+    position: absolute;
+    top: 200px;
+   left: 50%;
+    translate: -50%;
+ display: inline-block;
+ cursor: pointer;
+ outline: none;
+ border: 0;
+ vertical-align: middle;
+ text-decoration: none;
+ font-family: inherit;
+ font-size: 15px;
+ width: 250px;
+ font-family: PixelGame-R9AZe; 
+}
+
+.StartButton {
+ font-weight: 600;
+ color: #382b22;
+ text-transform: uppercase;
+ padding: 1.25em 2em;
+ background: #fff0f0;
+ border: 2px solid #b18597;
+ border-radius: 0.75em;
+ -webkit-transform-style: preserve-3d;
+ transform-style: preserve-3d;
+ -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+ transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.StartButton::before {
+ position: absolute;
+ content: '';
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: #f9c4d2;
+ border-radius: inherit;
+ -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+ box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+ -webkit-transform: translate3d(0, 0.75em, -1em);
+ transform: translate3d(0, 0.75em, -1em);
+ transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.StartButton:hover {
+ background: #ffe9e9;
+ -webkit-transform: translate(0, 0.25em);
+ transform: translate(0, 0.25em);
+}
+
+.StartButton:hover::before {
+ -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+ box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+ -webkit-transform: translate3d(0, 0.5em, -1em);
+ transform: translate3d(0, 0.5em, -1em);
+}
+
+.StartButton:active {
+ background: #ffe9e9;
+ -webkit-transform: translate(0em, 0.75em);
+ transform: translate(0em, 0.75em);
+}
+
+.StartButton:active::before {
+ -webkit-box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+ box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+ -webkit-transform: translate3d(0, 0, -1em);
+ transform: translate3d(0, 0, -1em);
+}
+
+
+.AboutButton {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    translate: -50%;
+ display: inline-block;
+ cursor: pointer;
+ outline: none;
+ border: 0;
+ vertical-align: middle;
+ text-decoration: none;
+ font-family: PixelGame-R9AZe;
+ font-size: 15px;
+ width: 250px;
+ 
+}
+
+.AboutButton {
+ font-weight: 600;
+ color: #382b22;
+ text-transform: uppercase;
+ padding: 1.25em 2em;
+ background: #fff0f0;
+ border: 2px solid #b18597;
+ border-radius: 0.75em;
+ -webkit-transform-style: preserve-3d;
+ transform-style: preserve-3d;
+ -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+ transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.AboutButton::before {
+ position: absolute;
+ content: '';
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: #f9c4d2;
+ border-radius: inherit;
+ -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+ box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+ -webkit-transform: translate3d(0, 0.75em, -1em);
+ transform: translate3d(0, 0.75em, -1em);
+ transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+.AboutButton:hover {
+ background: #ffe9e9;
+ -webkit-transform: translate(0, 0.25em);
+ transform: translate(0, 0.25em);
+}
+
+.AboutButton:hover::before {
+ -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+ box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+ -webkit-transform: translate3d(0, 0.5em, -1em);
+ transform: translate3d(0, 0.5em, -1em);
+}
+
+.AboutButton:active {
+ background: #ffe9e9;
+ -webkit-transform: translate(0em, 0.75em);
+ transform: translate(0em, 0.75em);
+}
+
+.AboutButton:active::before {
+ -webkit-box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+ box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+ -webkit-transform: translate3d(0, 0, -1em);
+ transform: translate3d(0, 0, -1em);
+}
+
+
+
+@font-face {
+    font-family: PixelGame-R9AZe;
+    src: url(pixel-game-font/PixelGame-R9AZe.otf);
+}
+
+/* From Uiverse.io by anandita-3217 */ 
+.heart {
+  display: inline-grid;
+  grid-template-columns: repeat(13, 20px);
+  grid-template-rows: repeat(11, 20px);
+  gap: 1px;
+  padding: 20px;
+  animation: heartbeat 2s infinite ease-in-out;
+}
+.pixel {
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+.pixel.pink {
+  background: #e63946;
+  animation: pinkPulse 2.5s infinite ease-in-out;
+}
+.pixel.soft-pink {
+  background: #f1a1b4;
+  animation: softPinkPulse 2.2s infinite ease-in-out;
+}
+.pixel.white {
+  background: #ffeaea;
+  animation: whitePulse 2.8s infinite ease-in-out;
+}
+@keyframes heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+@keyframes pinkPulse {
+  0%,
+  100% {
+    background: #ff6b81;
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(230, 57, 70, 0);
+  }
+  50% {
+    background: #e63946;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(230, 57, 70, 0.6);
+  }
+}
+@keyframes softPinkPulse {
+  0%,
+  100% {
+    background: #e63946;
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(241, 161, 180, 0);
+  }
+  50% {
+    background: #f1a1b4;
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(241, 161, 180, 0.6);
+  }
+}
+@keyframes whitePulse {
+  0%,
+  100% {
+    background: #ffe3e3;
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 234, 234, 0);
+  }
+  50% {
+    background: #ffeaea;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 234, 234, 0.8);
+  }
+}

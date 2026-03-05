@@ -1,0 +1,104 @@
+body {
+    background-image: url(/images.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.MainInterface{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 45%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 20px;
+
+}
+
+.Question1, .Question2, .Question3, .Question4, .Question5, .Question6, .Question7, .Question8, .Question9, .Question10 {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    font-size: 55px;
+    font-family: sans-serif;
+    font-weight: 1000;
+    font-family: PixelGame-R9AZe;
+    color: #fb74a8;
+    text-shadow: 2px 2px #ffffff;
+}
+
+.Choice1A, .Choice2A, .Choice3A, .Choice4A, .Choice5A, .Choice6A, .Choice7A, .Choice8A, .Choice9A, .Choice10A {
+    position: absolute;
+    top: 200px;
+    left: 6%;
+    width: 42%;
+    height: 50px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(249, 229, 255);
+    border: 1px solid rgb(237, 178, 255);
+    border-radius: 7px;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.Choice1B, .Choice2B, .Choice3B, .Choice4B, .Choice5B, .Choice6B, .Choice7B, .Choice8B, .Choice9B, .Choice10B {
+    position: absolute;
+    top: 275px;
+    left: 6%;
+    width: 42%;
+    height: 50px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(249, 229, 255);
+    border: 1px solid rgb(237, 178, 255);
+    border-radius: 7px;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.Choice1C, .Choice2C, .Choice3C, .Choice4C, .Choice5C, .Choice6C, .Choice7C, .Choice8C, .Choice9C, .Choice10C {
+    position: absolute;
+    top: 200px;
+    right: 6%;
+    width: 42%;
+    height: 50px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(249, 229, 255);
+    border: 1px solid rgb(237, 178, 255);
+    border-radius: 7px;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.Choice1D, .Choice2D, .Choice3D, .Choice4D, .Choice5D, .Choice6D, .Choice7D, .Choice8D, .Choice9D, .Choice10D {
+    position: absolute;
+    top: 275px;
+    right: 6%;
+    width: 42%;
+    height: 50px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(249, 229, 255);
+    border: 1px solid rgb(237, 178, 255);
+    border-radius: 7px;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+[class^="Choice"]:hover {
+    background-color: rgb(237, 178, 255);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    scale: 1.05;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: PixelGame-R9AZe;
+    src: url(../pixel-game-font/PixelGame-R9AZe.otf);
+}
+
