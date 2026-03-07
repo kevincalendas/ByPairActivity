@@ -1,7 +1,7 @@
 let score = parseInt(localStorage.getItem("finalScore")) || 0;
 let mistakes = parseInt(localStorage.getItem("finalMistakes")) || 0;
 
-console.log("Current Score Loaded:", score); // Check sa console
+console.log("Current Score Loaded:", score); 
 
 function CorrectAnswer() {
     score += 1;
@@ -29,8 +29,8 @@ function MistakesDirect() {
 }
 
 function RESETData() {
-    localStorage.clear(); // Mas malinis na paraan para burahin lahat
-    window.location.href = "QUESTIONS/Question1.html"; // Balik sa Home
+    localStorage.clear(); // I cclear yung score🫦🥵
+    window.location.href = "QUESTIONS/Question1.html"; // Papapuntahin pala don sa first question para ready na agad🫦🥰😛
 }
 
 // 3. DISPLAY LOGIC (Siguraduhin na tama ang IDs mo)
