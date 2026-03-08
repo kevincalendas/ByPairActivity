@@ -1,0 +1,64 @@
+body {
+  background-image: url(/pink-cloud-sky-pixel-art-style_475147-1265.avif);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.TITLE2 {
+  position: absolute;
+  top: 5px;
+  left: 65px;
+  font-size: 80px;
+  font-family: sans-serif;
+  font-weight: 1000;
+  font-family: PixelGame-R9AZe;
+  color: #fb74a8;
+  text-shadow: 4px 4px #000000;
+  width: 90%;
+  text-align: left;
+}
+
+@font-face {
+  font-family: PixelGame-R9AZe;
+  src: url(../pixel-game-font/PixelGame-R9AZe.otf);
+}
+
+.MainInterface {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 60%;
+  height: 70%;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 20px;
+}
+
+.abstract {
+  position: absolute;
+  bottom: 430px;
+  left: 65px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 1000;
+  font-family: PixelGame-R9AZe;
+  color: #000000;
+  width: 90%;
+  text-align: left;
+  text-align: justify;
+}
+
+.detailedinfo {
+  position: absolute;
+  bottom: 250px;
+  left: 65px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 1000;
+  font-family: PixelGame-R9AZe;
+  color: #000000;
+  width: 90%;
+  text-align: left;
+  text-align: justify;
+}

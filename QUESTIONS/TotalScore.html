@@ -1,19 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <title> FlopQuiz Questionnaires </title>
+  <head>
+    <title>FlopQuiz Questionnaires</title>
 
-        <!-- For Design-->
-        <link rel="stylesheet" href="Questionnaires.css">
-    </head>
+    <!-- For Design-->
+    <link rel="stylesheet" href="Questionnaires.css" />
+  </head>
 
-    <body>
-        <script src="../QuizScoreReveal.js"></script>
-        <script src="../QuizSystem.js"></script>
-        <div class="MainInterface">
-            <h1 class="Title1B">Total Achievements</h1> 
-            <h1 class="ScoreH1" id="ScoreH1">Total correct answers: </h1>
-            <h1 class="MistakesH1" id="MistakesH1">Total mistakes: </h1>
-        </div>
-    </body>
+  <body>
+    <script src="../QuizScoreReveal.js"></script>
+    <script src="../QuizSystem.js"></script>
+    <div class="MainInterface">
+      <h1 class="Title1B">Total Achievements</h1>
+      <h1 class="ScoreH1" id="ScoreH1">Total correct answers:</h1>
+      <h1 class="MistakesH1" id="MistakesH1">Total mistakes:</h1>
+      <h1 class="Quote">
+        "Every achievement is a step closer to your dreams."
+      </h1>
+    </div>
+
+    <button
+      class="Fromthestart"
+      onclick="window.location.href = '../MainHomePage.html'"
+    >
+      START AGAIN
+    </button>
+
+    <div class="Cutie">
+      <img src="/Cutie.gif" />
+    </div>
+
+    <div class="giphy" id="giphy">
+      <img src="/giphy.gif" />
+    </div>
+  </body>
 </html>
